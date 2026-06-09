@@ -8,7 +8,7 @@ from report import get_stats , print_transactions , print_top_categories
 parser = argparse.ArgumentParser()
 subparsers = parser.add_subparsers(dest="command", required=True)
 
-add_parser = subparsers.add_parser("add")
+add_parser = subparsers.add_parser("add" ,help="адд нью трансакшен (инкам  ор экспенс)")
 add_parser.add_argument("--amount", type=float, required=True)
 add_parser.add_argument("--category", type=str, required=True)
 add_parser.add_argument("--date", type=str, required=True)

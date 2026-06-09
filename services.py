@@ -145,10 +145,27 @@ def filter_transactions(tx_type=None, category=None, start_date=None, end_date=N
 
 
 def read_csv_stream(path):
-    with open(path, "r", encoding="utf-8") as f:
-        reader = csv.DictReader(f)
-        for row in reader:
-            yield row
+    try:
+        with open(path, "r", encoding="utf-8") as f:
+            reader = csv.DictReader(f)
+
+            if not reader.fieldnames:
+                logger.error("CSV file has no headers")
+                return
+
+            for row in reader:
+                if not row:
+                    continue
+
+                yield row
+
+    except FileNotFoundError:
+        logger.error(f"CSV file not found: {path}")
+        return
+
+    except csv.Error as e:
+        logger.error(f"CSV parsing error: {e}")
+        return
 
 def parse_date(date_str):
     return datetime.strptime(date_str, "%Y-%m-%d")
