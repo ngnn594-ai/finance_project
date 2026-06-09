@@ -1,0 +1,11 @@
+id,type,amount,category,date,comment
+1,income,1500,salary,2026-06-01,monthly salary
+2,expense,25.5,food,2026-06-02,lunch
+3,expense,12,transport,2026-06-03,taxi
+4,expense,60,entertainment,2026-06-04,games
+5,income,5000,bonus,2026-06-05,yearly bonus
+6,expense,80,home,2026-06-08,utilities
+7,expense,199.99,shopping,2026-06-06,clothes
+8,income,300,freelance,2026-06-09,project payment
+9,expense,45.2,food,2026-06-10,groceries
+10,expense,120,health,2026-06-11,medicine

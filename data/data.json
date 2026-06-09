@@ -1,0 +1,11 @@
+[
+    {
+        "id": 1,
+        "type": "income",
+        "amount": 100.0,
+        "category": "salary",
+        "date": "2026-06-01",
+        "currency": "USD",
+        "comment": "test"
+    }
+]
