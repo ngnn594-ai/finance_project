@@ -30,9 +30,10 @@ def get_stats():
         elif r["type"] == "expense":
             expense += r["amount"]
 
-
-
-    return income,expense
+    print("📊 STATISTICS")
+    print(f"Income:  {income:.2f}")
+    print(f"Expense: {expense:.2f}")
+    print(f"Balance: {income - expense:.2f}")
 
 
 def print_transactions(data):
@@ -55,3 +56,21 @@ def print_transactions(data):
         )
 
     print("-" * 90)
+
+
+def top_categories():
+    data = load_data()
+    categories = {}
+
+    for i in data:
+        categories[i["category"]] = i["amount"]
+
+    return sorted(categories.items() , key = lambda x: x[1] , reverse=True)[:5]
+
+def print_top_categories():
+    data = top_categories()
+
+    print('top_categories\n')
+
+    for key,value in data:
+        print(f"{key}: {value}")

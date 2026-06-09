@@ -2,7 +2,7 @@ import argparse
 from services import add_transaction, export_to_csv,import_data_csv , filter_transactions
 from logger import logger
 from validators import validate_all
-from report import get_stats , print_transactions
+from report import get_stats , print_transactions , print_top_categories
 
 
 parser = argparse.ArgumentParser()
@@ -30,8 +30,7 @@ list_parser.add_argument("--end", type=str, required=False)
 
 
 subparsers.add_parser("stats")
-
-
+subparsers.add_parser("top_categories")
 subparsers.add_parser("export_csv")
 
 args = parser.parse_args()
@@ -57,14 +56,10 @@ elif args.command == "list":
 
 
 elif args.command == "stats":
-    income,expense = get_stats()
+    get_stats()
 
-    print("📊 STATISTICS")
-    print(f"Income:  {income:.2f}")
-    print(f"Expense: {expense:.2f}")
-    print(f"Balance: {income-expense:.2f}")
-
-
+elif args.command == "top_categories":
+    print_top_categories()
 
 elif args.command == "export_csv":
      export_to_csv()

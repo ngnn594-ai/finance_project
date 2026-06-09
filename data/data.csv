@@ -1,4 +1,0 @@
-id,type,amount,category,date,currency,comment
-1,income,100.0,salary,2026-06-01,RUB,salary
-2,income,100.0,salary,2026-06-01,RUB,test
-3,income,100.0,salary,2026-06-01,USD,test

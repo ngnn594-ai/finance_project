@@ -1,9 +1,8 @@
 from storage import load_data, save_data
-from logger import logger
 from pathlib import Path
 import csv
 from logger import logger, log_call
-
+from datetime import datetime
 def get_next_id(data):
     return max((item["id"] for item in data), default=0) + 1
 
@@ -61,6 +60,7 @@ def import_data_csv(path):
 
     file = Path("data") / path
     print(file)
+
     if not file.exists():
         logger.error(f"File not found: {path}")
         print("Ошибка: файл не существует")
@@ -68,13 +68,39 @@ def import_data_csv(path):
 
     logger.info(f"Import started: {path}")
 
-
     new_records = []
     data = load_data()
     next_id = get_next_id(data)
 
+
+    existing = {
+        (
+            item["type"],
+            str(float(item["amount"])),
+            item["category"],
+            item["date"],
+            item["comment"]
+        )
+        for item in data
+    }
+
     for row in read_csv_stream(file):
         try:
+
+
+            sig = (
+                row["type"],
+                str(float(row["amount"] or 0)),
+                row["category"],
+                row["date"],
+                row["comment"]
+            )
+
+
+            if sig in existing:
+                logger.info(f"Duplicate skipped: {row}")
+                continue
+
             new_records.append({
                 "id": next_id,
                 "type": row["type"],
@@ -83,7 +109,10 @@ def import_data_csv(path):
                 "date": row["date"],
                 "comment": row["comment"]
             })
+
+            existing.add(sig)
             next_id += 1
+
         except Exception as e:
             logger.error(f"Bad row skipped: {row} | error: {e}")
 
@@ -104,10 +133,10 @@ def filter_transactions(tx_type=None, category=None, start_date=None, end_date=N
         if category and item.get("category") != category:
             continue
 
-        if start_date and item.get("date") < start_date:
+        if start_date and parse_date(item.get("date")) < parse_date(start_date):
             continue
 
-        if end_date and item.get("date") > end_date:
+        if end_date and parse_date(item.get("date")) > parse_date(end_date):
             continue
 
         result.append(item)
@@ -120,3 +149,7 @@ def read_csv_stream(path):
         reader = csv.DictReader(f)
         for row in reader:
             yield row
+
+def parse_date(date_str):
+    return datetime.strptime(date_str, "%Y-%m-%d")
+

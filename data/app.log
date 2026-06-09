@@ -1,0 +1,161 @@
+2026-06-10 01:51:28,763 | INFO | Command: import_csv
+2026-06-10 01:51:28,763 | INFO | START: import_data_csv
+2026-06-10 01:51:28,763 | INFO | Import started: transaction.csv
+2026-06-10 01:51:28,764 | INFO | END: import_data_csv
+2026-06-10 01:51:29,070 | INFO | Command: import_csv
+2026-06-10 01:51:29,070 | INFO | START: import_data_csv
+2026-06-10 01:51:29,070 | INFO | Import started: transaction.csv
+2026-06-10 01:51:29,071 | INFO | Duplicate skipped: {'id': '1', 'type': 'income', 'amount': '1500', 'category': 'salary', 'date': '2026-06-01', 'comment': 'monthly salary'}
+2026-06-10 01:51:29,071 | INFO | Duplicate skipped: {'id': '2', 'type': 'expense', 'amount': '25.5', 'category': 'food', 'date': '2026-06-02', 'comment': 'lunch'}
+2026-06-10 01:51:29,071 | INFO | Duplicate skipped: {'id': '3', 'type': 'expense', 'amount': '12', 'category': 'transport', 'date': '2026-06-03', 'comment': 'taxi'}
+2026-06-10 01:51:29,071 | INFO | Duplicate skipped: {'id': '4', 'type': 'expense', 'amount': '60', 'category': 'entertainment', 'date': '2026-06-04', 'comment': 'games'}
+2026-06-10 01:51:29,071 | INFO | Duplicate skipped: {'id': '5', 'type': 'income', 'amount': '5000', 'category': 'bonus', 'date': '2026-06-05', 'comment': 'yearly bonus'}
+2026-06-10 01:51:29,071 | INFO | Duplicate skipped: {'id': '6', 'type': 'expense', 'amount': '80', 'category': 'home', 'date': '2026-06-08', 'comment': 'utilities'}
+2026-06-10 01:51:29,071 | INFO | Duplicate skipped: {'id': '7', 'type': 'expense', 'amount': '199.99', 'category': 'shopping', 'date': '2026-06-06', 'comment': 'clothes'}
+2026-06-10 01:51:29,071 | INFO | Duplicate skipped: {'id': '8', 'type': 'income', 'amount': '300', 'category': 'freelance', 'date': '2026-06-09', 'comment': 'project payment'}
+2026-06-10 01:51:29,071 | INFO | Duplicate skipped: {'id': '9', 'type': 'expense', 'amount': '45.2', 'category': 'food', 'date': '2026-06-10', 'comment': 'groceries'}
+2026-06-10 01:51:29,071 | INFO | Duplicate skipped: {'id': '10', 'type': 'expense', 'amount': '120', 'category': 'health', 'date': '2026-06-11', 'comment': 'medicine'}
+2026-06-10 01:51:29,072 | INFO | END: import_data_csv
+2026-06-10 01:51:29,473 | INFO | Command: import_csv
+2026-06-10 01:51:29,473 | INFO | START: import_data_csv
+2026-06-10 01:51:29,474 | INFO | Import started: transaction.csv
+2026-06-10 01:51:29,474 | INFO | Duplicate skipped: {'id': '1', 'type': 'income', 'amount': '1500', 'category': 'salary', 'date': '2026-06-01', 'comment': 'monthly salary'}
+2026-06-10 01:51:29,474 | INFO | Duplicate skipped: {'id': '2', 'type': 'expense', 'amount': '25.5', 'category': 'food', 'date': '2026-06-02', 'comment': 'lunch'}
+2026-06-10 01:51:29,474 | INFO | Duplicate skipped: {'id': '3', 'type': 'expense', 'amount': '12', 'category': 'transport', 'date': '2026-06-03', 'comment': 'taxi'}
+2026-06-10 01:51:29,474 | INFO | Duplicate skipped: {'id': '4', 'type': 'expense', 'amount': '60', 'category': 'entertainment', 'date': '2026-06-04', 'comment': 'games'}
+2026-06-10 01:51:29,474 | INFO | Duplicate skipped: {'id': '5', 'type': 'income', 'amount': '5000', 'category': 'bonus', 'date': '2026-06-05', 'comment': 'yearly bonus'}
+2026-06-10 01:51:29,474 | INFO | Duplicate skipped: {'id': '6', 'type': 'expense', 'amount': '80', 'category': 'home', 'date': '2026-06-08', 'comment': 'utilities'}
+2026-06-10 01:51:29,474 | INFO | Duplicate skipped: {'id': '7', 'type': 'expense', 'amount': '199.99', 'category': 'shopping', 'date': '2026-06-06', 'comment': 'clothes'}
+2026-06-10 01:51:29,474 | INFO | Duplicate skipped: {'id': '8', 'type': 'income', 'amount': '300', 'category': 'freelance', 'date': '2026-06-09', 'comment': 'project payment'}
+2026-06-10 01:51:29,474 | INFO | Duplicate skipped: {'id': '9', 'type': 'expense', 'amount': '45.2', 'category': 'food', 'date': '2026-06-10', 'comment': 'groceries'}
+2026-06-10 01:51:29,474 | INFO | Duplicate skipped: {'id': '10', 'type': 'expense', 'amount': '120', 'category': 'health', 'date': '2026-06-11', 'comment': 'medicine'}
+2026-06-10 01:51:29,475 | INFO | END: import_data_csv
+2026-06-10 01:51:29,781 | INFO | Command: import_csv
+2026-06-10 01:51:29,781 | INFO | START: import_data_csv
+2026-06-10 01:51:29,781 | INFO | Import started: transaction.csv
+2026-06-10 01:51:29,782 | INFO | Duplicate skipped: {'id': '1', 'type': 'income', 'amount': '1500', 'category': 'salary', 'date': '2026-06-01', 'comment': 'monthly salary'}
+2026-06-10 01:51:29,782 | INFO | Duplicate skipped: {'id': '2', 'type': 'expense', 'amount': '25.5', 'category': 'food', 'date': '2026-06-02', 'comment': 'lunch'}
+2026-06-10 01:51:29,782 | INFO | Duplicate skipped: {'id': '3', 'type': 'expense', 'amount': '12', 'category': 'transport', 'date': '2026-06-03', 'comment': 'taxi'}
+2026-06-10 01:51:29,782 | INFO | Duplicate skipped: {'id': '4', 'type': 'expense', 'amount': '60', 'category': 'entertainment', 'date': '2026-06-04', 'comment': 'games'}
+2026-06-10 01:51:29,782 | INFO | Duplicate skipped: {'id': '5', 'type': 'income', 'amount': '5000', 'category': 'bonus', 'date': '2026-06-05', 'comment': 'yearly bonus'}
+2026-06-10 01:51:29,782 | INFO | Duplicate skipped: {'id': '6', 'type': 'expense', 'amount': '80', 'category': 'home', 'date': '2026-06-08', 'comment': 'utilities'}
+2026-06-10 01:51:29,782 | INFO | Duplicate skipped: {'id': '7', 'type': 'expense', 'amount': '199.99', 'category': 'shopping', 'date': '2026-06-06', 'comment': 'clothes'}
+2026-06-10 01:51:29,782 | INFO | Duplicate skipped: {'id': '8', 'type': 'income', 'amount': '300', 'category': 'freelance', 'date': '2026-06-09', 'comment': 'project payment'}
+2026-06-10 01:51:29,782 | INFO | Duplicate skipped: {'id': '9', 'type': 'expense', 'amount': '45.2', 'category': 'food', 'date': '2026-06-10', 'comment': 'groceries'}
+2026-06-10 01:51:29,782 | INFO | Duplicate skipped: {'id': '10', 'type': 'expense', 'amount': '120', 'category': 'health', 'date': '2026-06-11', 'comment': 'medicine'}
+2026-06-10 01:51:29,782 | INFO | END: import_data_csv
+2026-06-10 01:51:30,103 | INFO | Command: import_csv
+2026-06-10 01:51:30,103 | INFO | START: import_data_csv
+2026-06-10 01:51:30,103 | INFO | Import started: transaction.csv
+2026-06-10 01:51:30,103 | INFO | Duplicate skipped: {'id': '1', 'type': 'income', 'amount': '1500', 'category': 'salary', 'date': '2026-06-01', 'comment': 'monthly salary'}
+2026-06-10 01:51:30,103 | INFO | Duplicate skipped: {'id': '2', 'type': 'expense', 'amount': '25.5', 'category': 'food', 'date': '2026-06-02', 'comment': 'lunch'}
+2026-06-10 01:51:30,103 | INFO | Duplicate skipped: {'id': '3', 'type': 'expense', 'amount': '12', 'category': 'transport', 'date': '2026-06-03', 'comment': 'taxi'}
+2026-06-10 01:51:30,103 | INFO | Duplicate skipped: {'id': '4', 'type': 'expense', 'amount': '60', 'category': 'entertainment', 'date': '2026-06-04', 'comment': 'games'}
+2026-06-10 01:51:30,104 | INFO | Duplicate skipped: {'id': '5', 'type': 'income', 'amount': '5000', 'category': 'bonus', 'date': '2026-06-05', 'comment': 'yearly bonus'}
+2026-06-10 01:51:30,104 | INFO | Duplicate skipped: {'id': '6', 'type': 'expense', 'amount': '80', 'category': 'home', 'date': '2026-06-08', 'comment': 'utilities'}
+2026-06-10 01:51:30,104 | INFO | Duplicate skipped: {'id': '7', 'type': 'expense', 'amount': '199.99', 'category': 'shopping', 'date': '2026-06-06', 'comment': 'clothes'}
+2026-06-10 01:51:30,104 | INFO | Duplicate skipped: {'id': '8', 'type': 'income', 'amount': '300', 'category': 'freelance', 'date': '2026-06-09', 'comment': 'project payment'}
+2026-06-10 01:51:30,104 | INFO | Duplicate skipped: {'id': '9', 'type': 'expense', 'amount': '45.2', 'category': 'food', 'date': '2026-06-10', 'comment': 'groceries'}
+2026-06-10 01:51:30,104 | INFO | Duplicate skipped: {'id': '10', 'type': 'expense', 'amount': '120', 'category': 'health', 'date': '2026-06-11', 'comment': 'medicine'}
+2026-06-10 01:51:30,104 | INFO | END: import_data_csv
+2026-06-10 01:51:30,472 | INFO | Command: import_csv
+2026-06-10 01:51:30,472 | INFO | START: import_data_csv
+2026-06-10 01:51:30,472 | INFO | Import started: transaction.csv
+2026-06-10 01:51:30,472 | INFO | Duplicate skipped: {'id': '1', 'type': 'income', 'amount': '1500', 'category': 'salary', 'date': '2026-06-01', 'comment': 'monthly salary'}
+2026-06-10 01:51:30,473 | INFO | Duplicate skipped: {'id': '2', 'type': 'expense', 'amount': '25.5', 'category': 'food', 'date': '2026-06-02', 'comment': 'lunch'}
+2026-06-10 01:51:30,473 | INFO | Duplicate skipped: {'id': '3', 'type': 'expense', 'amount': '12', 'category': 'transport', 'date': '2026-06-03', 'comment': 'taxi'}
+2026-06-10 01:51:30,473 | INFO | Duplicate skipped: {'id': '4', 'type': 'expense', 'amount': '60', 'category': 'entertainment', 'date': '2026-06-04', 'comment': 'games'}
+2026-06-10 01:51:30,473 | INFO | Duplicate skipped: {'id': '5', 'type': 'income', 'amount': '5000', 'category': 'bonus', 'date': '2026-06-05', 'comment': 'yearly bonus'}
+2026-06-10 01:51:30,473 | INFO | Duplicate skipped: {'id': '6', 'type': 'expense', 'amount': '80', 'category': 'home', 'date': '2026-06-08', 'comment': 'utilities'}
+2026-06-10 01:51:30,473 | INFO | Duplicate skipped: {'id': '7', 'type': 'expense', 'amount': '199.99', 'category': 'shopping', 'date': '2026-06-06', 'comment': 'clothes'}
+2026-06-10 01:51:30,473 | INFO | Duplicate skipped: {'id': '8', 'type': 'income', 'amount': '300', 'category': 'freelance', 'date': '2026-06-09', 'comment': 'project payment'}
+2026-06-10 01:51:30,473 | INFO | Duplicate skipped: {'id': '9', 'type': 'expense', 'amount': '45.2', 'category': 'food', 'date': '2026-06-10', 'comment': 'groceries'}
+2026-06-10 01:51:30,473 | INFO | Duplicate skipped: {'id': '10', 'type': 'expense', 'amount': '120', 'category': 'health', 'date': '2026-06-11', 'comment': 'medicine'}
+2026-06-10 01:51:30,473 | INFO | END: import_data_csv
+2026-06-10 01:51:30,852 | INFO | Command: import_csv
+2026-06-10 01:51:30,852 | INFO | START: import_data_csv
+2026-06-10 01:51:30,852 | INFO | Import started: transaction.csv
+2026-06-10 01:51:30,853 | INFO | Duplicate skipped: {'id': '1', 'type': 'income', 'amount': '1500', 'category': 'salary', 'date': '2026-06-01', 'comment': 'monthly salary'}
+2026-06-10 01:51:30,853 | INFO | Duplicate skipped: {'id': '2', 'type': 'expense', 'amount': '25.5', 'category': 'food', 'date': '2026-06-02', 'comment': 'lunch'}
+2026-06-10 01:51:30,853 | INFO | Duplicate skipped: {'id': '3', 'type': 'expense', 'amount': '12', 'category': 'transport', 'date': '2026-06-03', 'comment': 'taxi'}
+2026-06-10 01:51:30,853 | INFO | Duplicate skipped: {'id': '4', 'type': 'expense', 'amount': '60', 'category': 'entertainment', 'date': '2026-06-04', 'comment': 'games'}
+2026-06-10 01:51:30,853 | INFO | Duplicate skipped: {'id': '5', 'type': 'income', 'amount': '5000', 'category': 'bonus', 'date': '2026-06-05', 'comment': 'yearly bonus'}
+2026-06-10 01:51:30,853 | INFO | Duplicate skipped: {'id': '6', 'type': 'expense', 'amount': '80', 'category': 'home', 'date': '2026-06-08', 'comment': 'utilities'}
+2026-06-10 01:51:30,853 | INFO | Duplicate skipped: {'id': '7', 'type': 'expense', 'amount': '199.99', 'category': 'shopping', 'date': '2026-06-06', 'comment': 'clothes'}
+2026-06-10 01:51:30,853 | INFO | Duplicate skipped: {'id': '8', 'type': 'income', 'amount': '300', 'category': 'freelance', 'date': '2026-06-09', 'comment': 'project payment'}
+2026-06-10 01:51:30,853 | INFO | Duplicate skipped: {'id': '9', 'type': 'expense', 'amount': '45.2', 'category': 'food', 'date': '2026-06-10', 'comment': 'groceries'}
+2026-06-10 01:51:30,853 | INFO | Duplicate skipped: {'id': '10', 'type': 'expense', 'amount': '120', 'category': 'health', 'date': '2026-06-11', 'comment': 'medicine'}
+2026-06-10 01:51:30,853 | INFO | END: import_data_csv
+2026-06-10 01:51:31,258 | INFO | Command: import_csv
+2026-06-10 01:51:31,258 | INFO | START: import_data_csv
+2026-06-10 01:51:31,258 | INFO | Import started: transaction.csv
+2026-06-10 01:51:31,259 | INFO | Duplicate skipped: {'id': '1', 'type': 'income', 'amount': '1500', 'category': 'salary', 'date': '2026-06-01', 'comment': 'monthly salary'}
+2026-06-10 01:51:31,259 | INFO | Duplicate skipped: {'id': '2', 'type': 'expense', 'amount': '25.5', 'category': 'food', 'date': '2026-06-02', 'comment': 'lunch'}
+2026-06-10 01:51:31,259 | INFO | Duplicate skipped: {'id': '3', 'type': 'expense', 'amount': '12', 'category': 'transport', 'date': '2026-06-03', 'comment': 'taxi'}
+2026-06-10 01:51:31,259 | INFO | Duplicate skipped: {'id': '4', 'type': 'expense', 'amount': '60', 'category': 'entertainment', 'date': '2026-06-04', 'comment': 'games'}
+2026-06-10 01:51:31,259 | INFO | Duplicate skipped: {'id': '5', 'type': 'income', 'amount': '5000', 'category': 'bonus', 'date': '2026-06-05', 'comment': 'yearly bonus'}
+2026-06-10 01:51:31,259 | INFO | Duplicate skipped: {'id': '6', 'type': 'expense', 'amount': '80', 'category': 'home', 'date': '2026-06-08', 'comment': 'utilities'}
+2026-06-10 01:51:31,259 | INFO | Duplicate skipped: {'id': '7', 'type': 'expense', 'amount': '199.99', 'category': 'shopping', 'date': '2026-06-06', 'comment': 'clothes'}
+2026-06-10 01:51:31,259 | INFO | Duplicate skipped: {'id': '8', 'type': 'income', 'amount': '300', 'category': 'freelance', 'date': '2026-06-09', 'comment': 'project payment'}
+2026-06-10 01:51:31,259 | INFO | Duplicate skipped: {'id': '9', 'type': 'expense', 'amount': '45.2', 'category': 'food', 'date': '2026-06-10', 'comment': 'groceries'}
+2026-06-10 01:51:31,259 | INFO | Duplicate skipped: {'id': '10', 'type': 'expense', 'amount': '120', 'category': 'health', 'date': '2026-06-11', 'comment': 'medicine'}
+2026-06-10 01:51:31,259 | INFO | END: import_data_csv
+2026-06-10 01:51:31,662 | INFO | Command: import_csv
+2026-06-10 01:51:31,663 | INFO | START: import_data_csv
+2026-06-10 01:51:31,663 | INFO | Import started: transaction.csv
+2026-06-10 01:51:31,664 | INFO | Duplicate skipped: {'id': '1', 'type': 'income', 'amount': '1500', 'category': 'salary', 'date': '2026-06-01', 'comment': 'monthly salary'}
+2026-06-10 01:51:31,664 | INFO | Duplicate skipped: {'id': '2', 'type': 'expense', 'amount': '25.5', 'category': 'food', 'date': '2026-06-02', 'comment': 'lunch'}
+2026-06-10 01:51:31,664 | INFO | Duplicate skipped: {'id': '3', 'type': 'expense', 'amount': '12', 'category': 'transport', 'date': '2026-06-03', 'comment': 'taxi'}
+2026-06-10 01:51:31,664 | INFO | Duplicate skipped: {'id': '4', 'type': 'expense', 'amount': '60', 'category': 'entertainment', 'date': '2026-06-04', 'comment': 'games'}
+2026-06-10 01:51:31,664 | INFO | Duplicate skipped: {'id': '5', 'type': 'income', 'amount': '5000', 'category': 'bonus', 'date': '2026-06-05', 'comment': 'yearly bonus'}
+2026-06-10 01:51:31,664 | INFO | Duplicate skipped: {'id': '6', 'type': 'expense', 'amount': '80', 'category': 'home', 'date': '2026-06-08', 'comment': 'utilities'}
+2026-06-10 01:51:31,664 | INFO | Duplicate skipped: {'id': '7', 'type': 'expense', 'amount': '199.99', 'category': 'shopping', 'date': '2026-06-06', 'comment': 'clothes'}
+2026-06-10 01:51:31,664 | INFO | Duplicate skipped: {'id': '8', 'type': 'income', 'amount': '300', 'category': 'freelance', 'date': '2026-06-09', 'comment': 'project payment'}
+2026-06-10 01:51:31,664 | INFO | Duplicate skipped: {'id': '9', 'type': 'expense', 'amount': '45.2', 'category': 'food', 'date': '2026-06-10', 'comment': 'groceries'}
+2026-06-10 01:51:31,664 | INFO | Duplicate skipped: {'id': '10', 'type': 'expense', 'amount': '120', 'category': 'health', 'date': '2026-06-11', 'comment': 'medicine'}
+2026-06-10 01:51:31,664 | INFO | END: import_data_csv
+2026-06-10 01:51:32,081 | INFO | Command: import_csv
+2026-06-10 01:51:32,081 | INFO | START: import_data_csv
+2026-06-10 01:51:32,081 | INFO | Import started: transaction.csv
+2026-06-10 01:51:32,081 | INFO | Duplicate skipped: {'id': '1', 'type': 'income', 'amount': '1500', 'category': 'salary', 'date': '2026-06-01', 'comment': 'monthly salary'}
+2026-06-10 01:51:32,082 | INFO | Duplicate skipped: {'id': '2', 'type': 'expense', 'amount': '25.5', 'category': 'food', 'date': '2026-06-02', 'comment': 'lunch'}
+2026-06-10 01:51:32,082 | INFO | Duplicate skipped: {'id': '3', 'type': 'expense', 'amount': '12', 'category': 'transport', 'date': '2026-06-03', 'comment': 'taxi'}
+2026-06-10 01:51:32,082 | INFO | Duplicate skipped: {'id': '4', 'type': 'expense', 'amount': '60', 'category': 'entertainment', 'date': '2026-06-04', 'comment': 'games'}
+2026-06-10 01:51:32,082 | INFO | Duplicate skipped: {'id': '5', 'type': 'income', 'amount': '5000', 'category': 'bonus', 'date': '2026-06-05', 'comment': 'yearly bonus'}
+2026-06-10 01:51:32,082 | INFO | Duplicate skipped: {'id': '6', 'type': 'expense', 'amount': '80', 'category': 'home', 'date': '2026-06-08', 'comment': 'utilities'}
+2026-06-10 01:51:32,082 | INFO | Duplicate skipped: {'id': '7', 'type': 'expense', 'amount': '199.99', 'category': 'shopping', 'date': '2026-06-06', 'comment': 'clothes'}
+2026-06-10 01:51:32,082 | INFO | Duplicate skipped: {'id': '8', 'type': 'income', 'amount': '300', 'category': 'freelance', 'date': '2026-06-09', 'comment': 'project payment'}
+2026-06-10 01:51:32,082 | INFO | Duplicate skipped: {'id': '9', 'type': 'expense', 'amount': '45.2', 'category': 'food', 'date': '2026-06-10', 'comment': 'groceries'}
+2026-06-10 01:51:32,082 | INFO | Duplicate skipped: {'id': '10', 'type': 'expense', 'amount': '120', 'category': 'health', 'date': '2026-06-11', 'comment': 'medicine'}
+2026-06-10 01:51:32,082 | INFO | END: import_data_csv
+2026-06-10 01:51:32,441 | INFO | Command: import_csv
+2026-06-10 01:51:32,442 | INFO | START: import_data_csv
+2026-06-10 01:51:32,442 | INFO | Import started: transaction.csv
+2026-06-10 01:51:32,442 | INFO | Duplicate skipped: {'id': '1', 'type': 'income', 'amount': '1500', 'category': 'salary', 'date': '2026-06-01', 'comment': 'monthly salary'}
+2026-06-10 01:51:32,442 | INFO | Duplicate skipped: {'id': '2', 'type': 'expense', 'amount': '25.5', 'category': 'food', 'date': '2026-06-02', 'comment': 'lunch'}
+2026-06-10 01:51:32,442 | INFO | Duplicate skipped: {'id': '3', 'type': 'expense', 'amount': '12', 'category': 'transport', 'date': '2026-06-03', 'comment': 'taxi'}
+2026-06-10 01:51:32,442 | INFO | Duplicate skipped: {'id': '4', 'type': 'expense', 'amount': '60', 'category': 'entertainment', 'date': '2026-06-04', 'comment': 'games'}
+2026-06-10 01:51:32,442 | INFO | Duplicate skipped: {'id': '5', 'type': 'income', 'amount': '5000', 'category': 'bonus', 'date': '2026-06-05', 'comment': 'yearly bonus'}
+2026-06-10 01:51:32,442 | INFO | Duplicate skipped: {'id': '6', 'type': 'expense', 'amount': '80', 'category': 'home', 'date': '2026-06-08', 'comment': 'utilities'}
+2026-06-10 01:51:32,442 | INFO | Duplicate skipped: {'id': '7', 'type': 'expense', 'amount': '199.99', 'category': 'shopping', 'date': '2026-06-06', 'comment': 'clothes'}
+2026-06-10 01:51:32,442 | INFO | Duplicate skipped: {'id': '8', 'type': 'income', 'amount': '300', 'category': 'freelance', 'date': '2026-06-09', 'comment': 'project payment'}
+2026-06-10 01:51:32,442 | INFO | Duplicate skipped: {'id': '9', 'type': 'expense', 'amount': '45.2', 'category': 'food', 'date': '2026-06-10', 'comment': 'groceries'}
+2026-06-10 01:51:32,442 | INFO | Duplicate skipped: {'id': '10', 'type': 'expense', 'amount': '120', 'category': 'health', 'date': '2026-06-11', 'comment': 'medicine'}
+2026-06-10 01:51:32,443 | INFO | END: import_data_csv
+2026-06-10 01:51:32,844 | INFO | Command: import_csv
+2026-06-10 01:51:32,844 | INFO | START: import_data_csv
+2026-06-10 01:51:32,844 | INFO | Import started: transaction.csv
+2026-06-10 01:51:32,845 | INFO | Duplicate skipped: {'id': '1', 'type': 'income', 'amount': '1500', 'category': 'salary', 'date': '2026-06-01', 'comment': 'monthly salary'}
+2026-06-10 01:51:32,845 | INFO | Duplicate skipped: {'id': '2', 'type': 'expense', 'amount': '25.5', 'category': 'food', 'date': '2026-06-02', 'comment': 'lunch'}
+2026-06-10 01:51:32,845 | INFO | Duplicate skipped: {'id': '3', 'type': 'expense', 'amount': '12', 'category': 'transport', 'date': '2026-06-03', 'comment': 'taxi'}
+2026-06-10 01:51:32,845 | INFO | Duplicate skipped: {'id': '4', 'type': 'expense', 'amount': '60', 'category': 'entertainment', 'date': '2026-06-04', 'comment': 'games'}
+2026-06-10 01:51:32,845 | INFO | Duplicate skipped: {'id': '5', 'type': 'income', 'amount': '5000', 'category': 'bonus', 'date': '2026-06-05', 'comment': 'yearly bonus'}
+2026-06-10 01:51:32,845 | INFO | Duplicate skipped: {'id': '6', 'type': 'expense', 'amount': '80', 'category': 'home', 'date': '2026-06-08', 'comment': 'utilities'}
+2026-06-10 01:51:32,845 | INFO | Duplicate skipped: {'id': '7', 'type': 'expense', 'amount': '199.99', 'category': 'shopping', 'date': '2026-06-06', 'comment': 'clothes'}
+2026-06-10 01:51:32,845 | INFO | Duplicate skipped: {'id': '8', 'type': 'income', 'amount': '300', 'category': 'freelance', 'date': '2026-06-09', 'comment': 'project payment'}
+2026-06-10 01:51:32,845 | INFO | Duplicate skipped: {'id': '9', 'type': 'expense', 'amount': '45.2', 'category': 'food', 'date': '2026-06-10', 'comment': 'groceries'}
+2026-06-10 01:51:32,845 | INFO | Duplicate skipped: {'id': '10', 'type': 'expense', 'amount': '120', 'category': 'health', 'date': '2026-06-11', 'comment': 'medicine'}
+2026-06-10 01:51:32,846 | INFO | END: import_data_csv
+2026-06-10 01:55:02,343 | INFO | Command: stats
+2026-06-10 02:05:14,527 | INFO | Command: top_categories
+2026-06-10 02:05:21,139 | INFO | Command: top_categories
