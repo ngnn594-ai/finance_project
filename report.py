@@ -34,7 +34,7 @@ def get_stats():
     print(f"Income:  {income:.2f}")
     print(f"Expense: {expense:.2f}")
     print(f"Balance: {income - expense:.2f}")
-
+    return income, expense
 
 def print_transactions(data):
     if not data:
